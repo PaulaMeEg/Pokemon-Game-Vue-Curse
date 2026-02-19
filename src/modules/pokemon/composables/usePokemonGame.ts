@@ -59,8 +59,6 @@ export const usePokemonGame = () => {
     pokemons.value = await getPokemons();
     getNextRound();
 
-    console.log(pokemonOptions.value)
-
    });
 
 
